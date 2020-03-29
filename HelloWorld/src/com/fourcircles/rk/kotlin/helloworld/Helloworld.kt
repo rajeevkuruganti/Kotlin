@@ -2,5 +2,9 @@ package com.fourcircles.rk.kotlin.helloworld
 
 
 fun main() {
-    println("Hello World")
+//    HWorld hw = new HWorld()
+    val  hw = HWorld()
+    println(hw.sayHelloWorld())
+    println(hw.sayHelloWorld("Rajeev "))
+
 }
